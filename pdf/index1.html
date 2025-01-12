@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #3498db, #9b59b6, #2ecc71);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}button{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100% , -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: none;
+    border: 2px solid rgb(36, 36, 240);
+    background-color: none;
+}
+    </style>
+    <title>Read</title>
+</head>
+<body dir="auto">
+    <a href="#">
+        <button>رجوع للخلف</button>
+    </a>
+    <iframe src="https://drive.google.com/file/d/1cSKj8mjVcyO9risKMyxOqsDfN0GTC7Tn/view" frameborder="0"width="98%"height="100%"></iframe>
+<script>
+    alert("أضغط علي يمكنك فتح المستند مباشرةً ");
+</script>
+
+</body>
+</html>
+
